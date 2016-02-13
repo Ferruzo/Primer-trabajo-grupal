@@ -7,23 +7,89 @@
 
 #call_to_action {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/background/city.jpg");
-	height: 410px;
-	background-position: 0px 0px;
+	height: 450px;
+	background-position: 0 0;
 	background-size: cover;
 }
 
 #call_to_action h3 {
-	width: 800px;
 	margin: 0 auto;
+	font-size: 18px;
 }
 
 .calltoaction_button {
-	font-size: 18px;
+	font-size: 16px;
 	margin: 70px auto;
 	width: 200px;
 	padding: 15px;
-	background-color: white;
-	opacity: 0.1;
-  filter: alpha(opacity=60);
+	height: 55px;
+	background-color: #fff;
+	background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
 }
 
+.calltoaction_button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.calltoaction_button:hover {
+	background-color: #0dc0c0;
+}
+
+.packages_mainp {
+	margin-bottom: 50px;
+}
+
+.packages_boxes {
+	background-color: #fff;
+	padding: 25px 10px;
+	height: 530px;
+	width: 250px;
+	margin-left: 20px;
+	display: inline-block;
+	float: none;
+	text-align: center;
+	margin-right: -4px;
+	box-shadow: #CECBCB 0px 3px 5px;
+}
+
+.black_package_btn {
+	background-color: #000;
+	font-size: 20px;
+	padding: 25px;
+	color: #fff;
+}
+
+.celeste {
+	background-color: #0dc0c0;
+}
+
+.price {
+	font-size: 25px;
+}
+
+.pd-15 {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.package_text {
+	padding: 15px 0;
+	width: 180px;
+	margin: auto;
+	border-bottom: 1px solid #E8E6E6;
+	font-size: 12px;
+}
+
+.purchase_btn {
+	background-color: black;
+	font-size: 12px;
+	width: 100px;
+	padding: 5px;
+	margin: auto;
+}
+
+.purchase_btn a {
+	color: rgb(244, 244, 244);
+	text-decoration: none;
+}
