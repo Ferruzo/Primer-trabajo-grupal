@@ -1,0 +1,349 @@
+/* Background del menú*/
+.bcmenu{
+	background-image: url(../img/background/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 670px; 
+	}
+
+#opacity-bg{
+	width: 100%;
+	height: 670px;
+	padding-top: 2%;
+	padding-left: 2%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+	/* Blur lo usamos para asignar el desenfoque, podemos darle todo tipo de valores intermedios, por ejemplo: 0 / 0.5 / 1 siendo 0 sin 
+	desenfoque. Para el filtro (grayscale) los valores se dan en % en escala de (0= color), (0.5=color) y (1= blanco y negro). 
+	Opacity alpha es para darle transparencia al elemento y, rgba garantiza que la opacidad no se herede a los elementos que contiene la sección*/
+
+/* Estilos del menú*/
+
+/* Estilos del ícono de la estrellita*/
+#star{
+	font-size: 22px;
+	background-color: transparent;
+	color: #fff;
+}
+
+/* Botones del navegador del menú*/
+.nav ul{
+	padding: 15px;
+	margin-top: -3%;
+	list-style: none;
+	float: right;
+	line-height: 14px;
+	white-space: nowrap;
+}
+.nav li{
+	display: inline-block;
+	position: relative;
+	left: -10%;
+}
+.nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+.nav li :hover{
+	color: #0DC0C0;
+}
+.bcmenu li{  transition: all .25s;}
+.bcmenu li:hover{  transform: scale(1.2);}
+
+/* Título del menú*/
+.title{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 55px;
+	margin-top: 13%;
+	margin-bottom: 3%;
+}
+
+/* Subtítulo del menú*/
+.subtitle{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+/* Navegador de los botones del portafolio*/
+.bottom ul{
+	margin-top: 5%;
+	list-style: none;
+	float: none;
+	white-space: nowrap;
+}
+.bottom li{
+	display: inline-block;
+	line-height: 20px;
+	padding:  1% 1%;
+	background-color: grey;
+	opacity: 0.7;
+}
+.bottom a{
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;	
+	color: rgb(255, 255, 255);
+	
+}
+.bottom ul :hover{
+	background-color: black;
+	opacity: 0.7;
+}
+
+/* Estilos para los íconos centrados*/
+#icon{
+    width: 40px; 
+	height: 40px;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	background-color: transparent;
+	color: #009999;
+}
+
+/* Estilos para los íconos a la izquierda*/
+#icon1{
+    width: 30px; 
+	height: 30px;
+	font-size: 30px;
+	float: right;
+	background-color: transparent;
+	color: #009999;
+}
+/* Estilos de la sección more features*/
+
+.mfeatures{
+	width: 80%;
+	margin: auto;
+}
+.text-features{
+	text-align: center;
+	font-size: 30px;
+	color: grey;
+	margin-top: 5%;
+}
+.text-white{
+	text-decoration: none;
+
+}
+.icon_star-half_alt{
+	margin-left: 6%
+}
+/*Section 1*/
+h1{
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 14%;
+	font-weight: normal;
+}
+p{
+	white-space: pre-line;
+}
+.bg1 p{
+	text-align: center;
+	color: #fff;
+	margin: 2% 0;
+}
+.button1{
+	padding: 2.3% 3%;
+	color: #fff;
+	background-color: #434549;
+	border: none;
+	font-size: 18px;
+	float: right;
+}
+.button2{
+	float: left;
+}
+.button:hover{
+	background: rgba(255,255,255,0.2);
+	cursor: pointer;
+}
+/*Section 2*/
+h3{
+	text-align: center; 
+}
+div[name="icons"]{
+	font-size: 250%;
+	text-align: center;
+	margin: 30% 0 5% 0;
+	color: #0dc0c0;
+}
+p[name="service"]{
+	text-align: center;
+	margin: 2% 0;
+	white-space: pre-line;
+}
+/*Section 3*/
+h2{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 1%;
+	margin-top: 6%;
+}
+.cajaprincipal{
+	height: 500px;
+	width: 1200px;
+	background-color: #f4f4f4;
+	margin-top: 10%;
+	margin-left: 2.5%;
+
+}
+.laptopcillo{
+	width: 70%;
+	height: 70%;
+	margin-left: 15%;
+	position: relative;
+	top: -10%;
+}
+/*Section 4*/
+div[name="features"]{
+	font-size: 250%;
+	text-align: right;
+	color: #0dc0c0;
+}
+p[name="features"]{
+	text-align: left;
+}
+/*More feature*/
+.iconos{
+ 	color:#04B4AE;
+	font-size:30px;
+	display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+
+.caja1{
+ 	margin-bottom: 5%;
+ 	margin-top: 4%;
+ }
+ 
+.titulo3{
+	/*margin: 0 auto;*/
+	font-weight: bold;
+	font-size: 20px;
+	list-style-type: none;
+	color: #1C1C1C;
+	padding-top: 9px;
+	padding-left: 6px;
+}
+
+.pa5{
+	/*margin: 0 auto;*/
+	text-align: justify;
+	color: #A4A4A4;
+	padding-bottom: 20px;
+}
+
+/*Section 5*/
+.pa5{
+	/*margin: 0 auto;*/
+	text-align: justify;
+	color: #A4A4A4;
+	padding-bottom: 20px;
+}
+
+.fondo4{
+	background-color: #D8D8D8;
+	width: 100%;
+	height: 220px;
+}
+
+.titulo4{
+	list-style-type: none;
+	margin: 35px auto;
+	font-size: 30px;
+	text-align: center;
+	color: #424242
+}
+
+.pa6{
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	color: #A4A4A4
+}
+
+.inicio2{
+	list-style-type: none;
+	margin: 13px auto;
+	text-align: center;
+    display: table;
+}
+
+.inicio3{
+	position: relative;
+	float: left;
+	color: black;
+	padding: 10px;
+	background-color: white;
+	margin-left:6px;
+	font-weight: bold;
+}
+
+.inicio3:hover{
+	background-color: #0DC0C0;
+	color: white;
+}
+
+.fondo5{
+	background-color: #D8D8D8;
+	width: 100%;
+	height: 1100px;
+}
+.cuadro{
+	background-color: white;
+	width: 540px;
+	height: 340px;
+	margin:22px auto;
+}
+
+.imagen{
+	display: table;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.dash{
+	text-align: center;
+	font-weight: bold;
+	color: #585858;
+	font-size: 20px;
+}
+
+.web{
+	text-align: center;
+	color:#848484;
+	font-size: 20px;
+}
+
+.fondo5a{
+	background-color: #D8D8D8;
+	width: 100%;
+	height: 100px;
+	
+
+}
+
+.more{
+	background-color:#2E2E2E;
+	color: white;
+	text-align: center;
+	position: relative;
+	display: table;
+	margin: 27px auto;
+    width: 90px;
+    height: 24px;
+    padding: 9px;
+}
