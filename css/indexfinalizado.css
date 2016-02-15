@@ -88,8 +88,6 @@
     font-size: 12px;
     width: 200px;
     margin: auto;
-    position: relative;
-    right: -10%;
 }
 
 .laptops {
@@ -130,6 +128,7 @@
     font-weight: 600;
     transition: all .25s;
     color: #000;
+    font-weight: bold;
 }
 
 .portfolio-btn a {
