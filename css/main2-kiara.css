@@ -1,3 +1,5 @@
+@media (min-width: 480px) {
+
 * {
 	font-family: Open Sans;
 	padding: 0;
@@ -6,20 +8,21 @@
 }
 
 #call_to_action {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/background/city.jpg");
-	height: 450px;
-	background-position: 0 0;
-	background-size: cover;
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../img/background/city.jpg");
+	height: 550px;
+    background-position: center -70px;
+    background-attachment: fixed;
+    padding: 170px 50px;
 }
 
 #call_to_action h3 {
-	margin: 0 auto;
-	font-size: 18px;
+	margin: 10px auto;
+	font-size: 26px;
 }
 
 .calltoaction_button {
 	font-size: 16px;
-	margin: 70px auto;
+	margin: 50px auto;
 	width: 200px;
 	padding: 15px;
 	height: 55px;
@@ -43,8 +46,8 @@
 .packages_boxes {
 	background-color: #fff;
 	padding: 25px 10px;
-	height: 530px;
-	width: 250px;
+	height: 600px;
+	width: 310px;
 	margin-left: 20px;
 	display: inline-block;
 	float: none;
@@ -55,7 +58,7 @@
 
 .black_package_btn {
 	background-color: #000;
-	font-size: 20px;
+	font-size: 22px;
 	padding: 25px;
 	color: #fff;
 }
@@ -78,12 +81,19 @@
 	width: 180px;
 	margin: auto;
 	border-bottom: 1px solid #E8E6E6;
-	font-size: 12px;
+	font-size: 14px;
+}
+
+.purchase_container {
+    width: 180px;
+    border-bottom: 1px solid #E8E6E6;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .purchase_btn {
 	background-color: black;
-	font-size: 12px;
+	font-size: 14px;
 	width: 100px;
 	padding: 5px;
 	margin: auto;
@@ -92,4 +102,280 @@
 .purchase_btn a {
 	color: rgb(244, 244, 244);
 	text-decoration: none;
+}
+
+.customer_pic {
+    background-image: url("../img/customer.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 50px auto 10px;
+}
+
+#customers p {
+    font-size: 14px;
+    margin: auto;
+    line-height: 30px;
+    width: 750px;
+}
+
+#contactus {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../img/background/contactus.jpg");
+    background-size: cover;
+    background-position: center
+
+    background-repeat: no-repeat;
+
+}
+
+.contactus_main_p {
+    margin: 40px auto 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+    border: none;
+    height: 200px;
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.submit_btn {
+    width: 150px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.col-5_text {
+    line-height: 27px;
+    font-size: 13px;
+}
+
+.address_p {
+    margin: 40px 0;
+}
+
+.followus_text {
+    color: rgb(138, 138, 138);
+    width: 750px;
+    margin: 30px auto;
+}
+
+.social {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    color: rgb(153, 153, 153);
+}
+}
+
+@media (max-width: 480px) {
+    * {
+    	font-family: Open Sans;
+    	padding: 0;
+    	margin: 0;
+    	text-align: center;
+    }
+
+    #call_to_action {
+    	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../img/background/city.jpg");
+        background-position: center;
+        background-attachment: scroll;
+        padding: 170px 50px;
+    }
+
+    #call_to_action h3 {
+    	margin: 10px auto;
+    	font-size: 26px;
+    }
+
+    .calltoaction_button {
+    	font-size: 16px;
+    	margin: 50px auto;
+    	width: 200px;
+    	padding: 15px;
+    	height: 55px;
+    	background-color: #fff;
+    	background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+    }
+
+    .calltoaction_button a {
+    	text-decoration: none;
+    	color: #fff;
+    }
+
+    .packages_mainp {
+    	margin-bottom: 50px;
+    }
+
+    .packages_boxes {
+    	background-color: #fff;
+    	padding: 25px 10px;
+    	height: 600px;
+    	width: 310px;
+    	display: inline-block;
+    	float: none;
+    	text-align: center;
+    	margin-right: -4px;
+        margin-bottom: 30px;
+    	box-shadow: #CECBCB 0px 3px 5px;
+    }
+
+    .black_package_btn {
+    	background-color: #000;
+    	font-size: 22px;
+    	padding: 25px;
+    	color: #fff;
+    }
+
+    .celeste {
+    	background-color: #0dc0c0;
+    }
+
+    .price {
+    	font-size: 25px;
+    }
+
+    .pd-15 {
+    	padding-top: 15%;
+    	padding-bottom: 15%;
+    }
+
+    .package_text {
+    	padding: 15px 0;
+    	width: 180px;
+    	margin: auto;
+    	border-bottom: 1px solid #E8E6E6;
+    	font-size: 14px;
+    }
+
+    .purchase_container {
+        width: 180px;
+        border-bottom: 1px solid #E8E6E6;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .purchase_btn {
+    	background-color: black;
+    	font-size: 14px;
+    	width: 100px;
+    	padding: 5px;
+    	margin: auto;
+    }
+
+    .purchase_btn a {
+    	color: rgb(244, 244, 244);
+    	text-decoration: none;
+    }
+
+    .customer_pic {
+        background-image: url("../img/customer.jpg");
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        margin: 50px auto 10px;
+    }
+
+    #customers p {
+        font-size: 14px;
+        margin: auto;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    #contactus {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../img/background/contactus.jpg");
+        background-size: cover;
+        background-position: center
+
+        background-repeat: no-repeat;
+
+    }
+
+    .contactus_main_p {
+        margin: 40px auto 10px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    input {
+        text-align: left;
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+        border: none;
+    }
+
+    textarea {
+        width: 100%;
+        background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+        border: none;
+        height: 200px;
+        text-align: left;
+        padding: 15px 10px;
+    }
+
+    .submit_btn {
+        width: 150px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .col-5_text {
+        line-height: 27px;
+        font-size: 13px;
+    }
+
+    .address_p {
+        margin: 40px 0;
+    }
+
+    .followus_text {
+        color: rgb(138, 138, 138);
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .social {
+        font-size: 35px;
+        margin: 50px 0;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    footer {
+        background-color: #000;
+        color: rgb(153, 153, 153);
+    }
 }

@@ -7,6 +7,7 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/elegant-fonts.css">
@@ -16,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main2-kiara.css">
 </head>
 <body>
-	<section id="call_to_action" class="w-100 bg-img-block text-white pt-10">
+	<section id="call_to_action" class="w-100 bg-img-block text-white">
 		<div class="container-fluid">
 			<div class="row">
 				<h3 class="text-white lh">Quisque aliquam odio eu magna sodales, vel interdum erat suscipit.</h3>
@@ -57,9 +58,11 @@
 							Cras et fermentum massa
 						</div>
 					</div>
-					<div class="purchase_btn">
-						<a href="#">Purchase</a>
-					</div>
+                    <div class="purchase_container">
+    					<div class="purchase_btn">
+    						<a href="#">Purchase</a>
+    					</div>
+                    </div>
 				</div>
 				<div class="col-lg-4 packages_boxes">
 					<div class="black_package_btn celeste">
@@ -82,9 +85,11 @@
 							Cras et fermentum massa
 						</div>
 					</div>
-					<div class="purchase_btn">
-						<a href="#">Purchase</a>
-					</div>
+                    <div class="purchase_container">
+    					<div class="purchase_btn">
+    						<a href="#">Purchase</a>
+    					</div>
+                    </div>
 				</div>
 				<div class="col-lg-4 packages_boxes">
 					<div class="black_package_btn">
@@ -107,17 +112,80 @@
 							Cras et fermentum massa
 						</div>
 					</div>
-					<div class="purchase_btn">
-						<a href="#">Purchase</a>
-					</div>
+                    <div class="purchase_container">
+    					<div class="purchase_btn">
+    						<a href="#">Purchase</a>
+    					</div>
+                    </div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="customers" class="pd-5">
-		
+        <div class="container-fluid">
+            <h2>What our customers have to say...</h2>
+            <div class="customer_pic img-circle"></div>
+            <div>
+                <p>Pellentesque sit amet a mi luctus laoreet ut nec velit. Morbi in fermentum elit. Curabitur pellentesque neque
+                eget diam posuere porta. Aliquam imperdiet nulla id scelerisque auctor. Proin egestas mauris vel arcu bibendum
+                ornare.</p>
+                <p class="f-600">-Diana Rosswert</p>
+            </div>
+        </div>
 	</section>
+    <section id="contactus" class="text-white pd-5 bg-img-block w-100">
+        <div class="container-fluid">
+            <h2>Contact Us</h2>
+            <p class="contactus_main_p text-left">lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra odio ac felis iaculis cursus
+            aliquet quis orci. Nunc id lorem ut mi euismod accumsan.</p>
+            <div class="col-lg-7">
+                <h3 class="text-left">Send Message</h3>
+                <form class="text-left">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" form="message" placeholder="Message"></textarea>
+                    <input  class="celeste submit_btn f-600" type="button" value="Submit" onclick="msg()">
+                </form>
+            </div>
+            <div class="col-lg-5">
+                <h3 class="text-left">About Us</h3>
+                <p class="text-left col-5_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa. Ut enim ad minim veniam, quis nostrud.</p>
+                <h3 class="text-left">Address</h3>
+                <p class="text-left col-5:text address_p"><i class="fa fa-map-marker">&nbsp;&nbsp;&nbsp;&nbsp;</i>13 Brant Street, Burlington, Ontario, Canada</p>
+                <p class="text-left col-5:text address_p"><i class="fa fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;</i>Phone: 0011 222 335 7773</p>
+            </div>
+        </div>
+    </section>
+    <section id="followus" class="pd-5">
+        <div class="container-fluid">
+            <h2>Follow Us!</h2>
+            <p class="followus_text">Class aptent taciti sociosqu ad litora torquenet per conubia nostra, per inceptos himenaeos.
+            Suspendisse suscipit tellus vitae tellus porta rutrum. Aliquam imperdiet nulla id scelerisque auctor.</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+    </section>
 </body>
+<footer class="pd-5">
+    ©primes 2015 - laboratoria.la
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="Bootstrap/js/bootstrap.min.js"></script>
+<script>
+function msg() {
+    alert("Thanks! We'll contact you as soon as possible.");
+}
+</script>
 </html>
