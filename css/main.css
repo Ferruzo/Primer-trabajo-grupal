@@ -307,13 +307,33 @@ p[name="features"]{
 	width: 540px;
 	height: 340px;
 	margin:22px auto;
+
 }
 
+.cuadro:hover{
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
 .imagen{
 	display: table;
 	position: relative;
 	margin: 0 auto;
 	padding-top: 15px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+ 
+.imagen:hover {
+	opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 }
 
 .dash{
@@ -347,4 +367,9 @@ p[name="features"]{
     width: 90px;
     height: 24px;
     padding: 9px;
+}
+.pintado {
+	text-decoration: none;
+	color: white;
+
 }
